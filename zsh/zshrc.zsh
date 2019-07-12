@@ -14,5 +14,7 @@ source ~/.dotfiles/zsh/options.zsh
 
 source ~/.dotfiles/zsh/bindings.zsh
 
+source ~/.dotfiles/zsh/functions.zsh
+
 source ~/.dotfiles/zsh/env.zsh
 

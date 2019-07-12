@@ -11,7 +11,6 @@ export GITLAB_API_PRIVATE_TOKEN=6ptcL4n78vCpkWcoqEsi
 #For flutter
 export PATH=/opt/flutter/:$PATH
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
 export PATH=~/bin:$PATH
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
