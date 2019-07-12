@@ -1,7 +1,5 @@
 ## Plugins for zplugin
 
-zplugin load djui/alias-tips
-
 zplugin load zdharma/history-search-multi-word
 
 zplugin ice compile"*.lzui" from"notabug"
@@ -58,9 +56,10 @@ zplugin snippet OMZ::lib/history.zsh
 
 zplugin snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 
+# zplugin snippet djui/alias-tips
 
 # Toggle with ^X^L
-zplugin light Valiev/almostontop
+# zplugin light Valiev/almostontop
 
 # https://github.com/hlissner/zsh-autopair for usage
 zplugin light hlissner/zsh-autopair

@@ -1,4 +1,22 @@
+# easier navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+# cd places
+alias doc="cd ~/Documents/"
+alias dz="cd ~/.dotfiles"
+alias de="cd ~/Desktop"
+alias dq="cd ~/Downloads"
+
+
+
+
+
+
 # General
+alias c="clear"
+alias ls="ls --color"
 alias g="git" # Wrapper over git
 alias _="sudo"
 alias eo="echo"
@@ -32,19 +50,7 @@ alias igl="npm list -g --depth 0"
 # Delete things
 alias rrpdf="rm -rf *.pdf"
 
-# easier navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-
-# cd places
-alias doc="cd ~/Documents/"
-alias dz="cd ~/.dotfiles"
-alias de="cd ~/Desktop"
-alias dq="cd ~/Downloads"
-
 # Git
-alias gj="open `git config remote.origin.url`"
 alias gm="git branch -m" # Rename current branch
 alias ger="git checkout -" # Checkout last branch you were on
 alias grl="git reset --hard && git clean -df" # Reset to exact state as last commit
