@@ -1,0 +1,3 @@
+INPUT='git@github.com:londonappbrewery/Clima-Flutter.git'
+SUBSTRING=$(echo $INPUT| cut -d'/' -f 2)
+echo $SUBSTRING

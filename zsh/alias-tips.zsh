@@ -8,6 +8,7 @@ alias doc="cd ~/Documents/"
 alias dz="cd ~/.dotfiles"
 alias de="cd ~/Desktop"
 alias dq="cd ~/Downloads"
+alias happy="d ~/Downloads/Downloads/HP\ Downloads/ "
 
 
 
@@ -15,6 +16,7 @@ alias dq="cd ~/Downloads"
 
 
 # General
+alias update="_ pacman -Syu"
 alias c="clear"
 alias ls="ls --color"
 alias g="git" # Wrapper over git
